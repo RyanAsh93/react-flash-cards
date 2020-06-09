@@ -47,7 +47,8 @@ render() {
   return (
     <Container style={{ paddingTop: "25px" }}>
       <Header as="h1">React Flash Cards Q & A</Header>
-      <Header as="h2">Create your own cards</Header>
+      <Header as="h3">Create your own cards</Header>
+      <Header as="h4">If you dont know the answer to your own question....GOOGLE IT!!</Header>
       <br />
       <Segment basic>
         <Button icon color="orange" onClick={this.toggleForm}>
